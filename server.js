@@ -10,6 +10,7 @@ app.use(express.json())
 
 app.post('/api/gpt-analyze', async (req, res) => {
   const { prompt, base64Image } = req.body
+  const base64Only = base64Image.replace(/^data:image\/\w+;base64,/, '')
 
   try {
     const response = await axios.post(
@@ -25,7 +26,12 @@ app.post('/api/gpt-analyze', async (req, res) => {
             role: 'user',
             content: [
               { type: 'text', text: prompt },
-              { type: 'image_url', image_url: { url: base64Image } }
+              {
+                type: 'image_url',
+                image_url: {
+                  url: `data:image/jpeg;base64,${base64Only}`
+                }
+              }
             ]
           }
         ],
