@@ -5,6 +5,6 @@
 > 此為render.com負責後端的server。<br>
 
 📝 &nbsp; 相關文件：
-[前後端除錯利器：從截圖到 JSON 的自動化工具]([https://jacychu.medium.com/%E5%85%A8%E7%AB%AF%E5%AF%A6%E4%BD%9C-dango-vuejs-30e2c139db26](https://jacychu.medium.com/%E5%89%8D%E5%BE%8C%E7%AB%AF%E9%99%A4%E9%8C%AF%E5%88%A9%E5%99%A8-%E5%BE%9E%E6%88%AA%E5%9C%96%E5%88%B0-json-%E7%9A%84%E8%87%AA%E5%8B%95%E5%8C%96%E5%B7%A5%E5%85%B7-3756871776b4))
+[前後端除錯利器：從截圖到 JSON 的自動化工具] (https://jacychu.medium.com/%E5%89%8D%E5%BE%8C%E7%AB%AF%E9%99%A4%E9%8C%AF%E5%88%A9%E5%99%A8-%E5%BE%9E%E6%88%AA%E5%9C%96%E5%88%B0-json-%E7%9A%84%E8%87%AA%E5%8B%95%E5%8C%96%E5%B7%A5%E5%85%B7-3756871776b4)
 
 ✨ 查看網站:  [https://vue-my-notebook.vercel.app/alldata](https://debug-orc-helper.vercel.app)
